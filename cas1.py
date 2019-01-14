@@ -1,10 +1,8 @@
-print("To check the given number")
-a=int(input("Enter a number :"))
+a=int(input())
 if (a==0):
-    print("The given number is Zero..")
+    print("ZERO")
 elif (a<0):
-    print("The given number is negative")
-elif (a>0):
-    print("The given number is positive")
+    print("NEGATIVE")
 else:
-    print("The vaiid number")
+    print("POSITIVE")
+
