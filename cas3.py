@@ -1,9 +1,6 @@
-a=str(input())
-y=['a','e','i','o','u']
-x=['q','w','r','t','y','p','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m']
-if (a==y):
-    print("Vowels")
-elif (a==x):
-    print("Consonant")
+ch = str(input())
+if(ch=='A' or ch=='a' or ch=='E' or ch =='e' or ch=='I'
+ or ch=='i' or ch=='O' or ch=='o' or ch=='U' or ch=='u'):
+    print("Vowel")
 else:
-    print("invalid")
+    print("Consonant")
