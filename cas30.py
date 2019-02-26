@@ -1,0 +1,10 @@
+hr11,min11=map(int,input().split())
+hr12,min12=map(int,input().split())
+aa=hr11*60+min11
+bb=hr12*60+min12
+if(a>b):
+    cc=aa-bb
+    print(cc//60,cc%60)
+else:
+    dd=bb-aa
+    print(dd//60,dd%60)
