@@ -1,8 +1,8 @@
-hr11,min11=map(int,input().split())
-hr12,min12=map(int,input().split())
-aa=hr11*60+min11
-bb=hr12*60+min12
-if(a>b):
+hrs11,mins11=map(int,input().split())
+hrs12,mins12=map(int,input().split())
+aa=hrs11*60+mins11
+bb=hrs12*60+mins12
+if(aa>bb):
     cc=aa-bb
     print(cc//60,cc%60)
 else:
